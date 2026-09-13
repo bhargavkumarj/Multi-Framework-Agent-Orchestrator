@@ -208,13 +208,3 @@ sessions. Set both models to the cheaper alternatives in `.env` and it drops
 substantially. `--dry-run` shows the team and spends nothing.
 
 ---
-
-## Provenance
-
-Built from the week 5 capstone of Ed Donner's *Master AI Agentic Engineering*
-course, restructured into a standalone application: the five framework workers
-(previously scattered across three sibling course directories) are vendored into
-one installable package, workers launch as modules through `sys.executable`
-rather than by relative path through `uv run`, every budget and timeout is
-centralised in `config.py`, and there is a CLI with an environment doctor and a
-test suite. See `ARCHITECTURE.md`.
